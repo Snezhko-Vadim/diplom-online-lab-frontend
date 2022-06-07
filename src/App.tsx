@@ -14,7 +14,7 @@ const WindowsContainerRow = styled.div`
   margin-bottom: 10px;
 `;
 
-let ws = new WebSocket('ws://localhost:8000/ws');
+let ws = new WebSocket('wss://diplom-backend-bsu.herokuapp.com/ws');
 
 function App() {
   const [isWsOpen, setIsWsOpen] = useState(false);
